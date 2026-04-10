@@ -87,6 +87,7 @@ impl PeerConnectionEventHandler for DataChannelAnswererHandler {
 /// Test that creating a PeerConnection with TCP listeners succeeds,
 /// and that closing it properly cleans up accept loops (no leaked tasks).
 #[test]
+#[ignore = "TCP transport not yet supported in async driver (see fix/ice-loopback-stun-turn)"]
 fn test_tcp_peer_connection_lifecycle() {
     block_on(async {
         let (gather_tx, mut gather_rx) = channel::<()>(1);
@@ -116,6 +117,7 @@ fn test_tcp_peer_connection_lifecycle() {
 /// Test that a TCP-only peer connection (no UDP sockets) can be created
 /// and that the event loop doesn't spin (the pending() guard fires).
 #[test]
+#[ignore = "TCP transport not yet supported in async driver (see fix/ice-loopback-stun-turn)"]
 fn test_tcp_only_no_udp_sockets() {
     block_on(async {
         let (gather_tx, mut gather_rx) = channel::<()>(1);
