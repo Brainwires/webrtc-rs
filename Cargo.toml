@@ -146,6 +146,7 @@ name = "swap-tracks"
 path = "examples/swap-tracks/swap-tracks.rs"
 bench = false
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 [[example]]
 <<<<<<< HEAD
@@ -155,11 +156,20 @@ path = "examples/data-channel-with-video/data-channel-with-video.rs"
 name = "mdns-local-peers"
 path = "examples/mdns-local-peers/mdns-local-peers.rs"
 >>>>>>> feat/mdns-async-wrapper
+=======
+
+[[example]]
+name = "mdns-local-peers"
+path = "examples/mdns-local-peers/mdns-local-peers.rs"
+>>>>>>> feat/tcp-ice-mdns-examples
 bench = false
 
 [[example]]
 name = "ice-tcp"
 path = "examples/ice-tcp/ice-tcp.rs"
 bench = false
+<<<<<<< HEAD
 =======
 >>>>>>> fix/driver-robustness
+=======
+>>>>>>> feat/tcp-ice-mdns-examples
