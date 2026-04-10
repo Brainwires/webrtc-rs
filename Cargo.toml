@@ -147,6 +147,11 @@ path = "examples/swap-tracks/swap-tracks.rs"
 bench = false
 
 [[example]]
+<<<<<<< HEAD
 name = "data-channel-with-video"
 path = "examples/data-channel-with-video/data-channel-with-video.rs"
+=======
+name = "mdns-local-peers"
+path = "examples/mdns-local-peers/mdns-local-peers.rs"
+>>>>>>> feat/mdns-async-wrapper
 bench = false
